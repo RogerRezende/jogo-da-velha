@@ -13,39 +13,21 @@
     </div>
     <!-- Primeira linha do jogo da velha -->
     <div>
-        <div id="square1" class="quadrado">
-            -
-        </div>
-        <div id="square2" class="quadrado">
-            -
-        </div>
-        <div id="square3" class="quadrado">
-            -
-        </div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
     <!-- Segunda linha do jogo da velha -->
     <div>
-        <div id="square4" class="quadrado">
-            -
-        </div>
-        <div id="square5" class="quadrado">
-            -
-        </div>
-        <div id="square6" class="quadrado">
-            -
-        </div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
     <!-- Terceira linha do jogo da velha -->
     <div>
-        <div id="square7" class="quadrado">
-            -
-        </div>
-        <div id="square8" class="quadrado">
-            -
-        </div>
-        <div id="square9" class="quadrado">
-            -
-        </div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
     </div>
     <!-- Mostrar com qual tipo o jogador irá usar no jogo -->
     <div class="jogador">
@@ -59,7 +41,8 @@
     </div>
     <!-- Reiniciar o jogo -->
     <div>
-        <button>Reiniciar</button>
+        <button onclick="reiniciar()">Reiniciar</button>
     </div>
 </body>
+    <script src="functions/jogoDaVelha.js"></script>
 </html>
